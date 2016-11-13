@@ -1,0 +1,16 @@
+name : Warp
+main : kr.mocha.Warp
+version : 1.0-SNAPSHOT
+author : mocha
+api : [1.0.0]
+description : "warp plugin for nukkit"
+
+permissions :
+ addWarp.cmd :
+  default : OP
+ delWarp.cmd :
+  default : OP
+ listWarp.cmd :
+  default : true
+ warp.cmd :
+  default : true
